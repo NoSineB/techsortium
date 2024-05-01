@@ -8,15 +8,17 @@
                 <About />
             </div>
         </div>
+        <Description />
     </div>
 </template>
 
 <script setup>
     import Landing from '../components/Landing.vue';
     import About from '../components/About.vue';
+    import Description from '../components/Description.vue';
 </script>
 
-<style>
+<style scoped>
     .landing-div{
         position: sticky;
         top: 0;
