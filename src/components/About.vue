@@ -9,6 +9,9 @@
             <img src="../assets/images/HEADER.svg" alt="">
         </div>
     </div>
+    <div class="h-[50vh]">
+
+    </div>
 </template>
 
 <style>
