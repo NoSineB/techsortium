@@ -1,9 +1,9 @@
 <template>
     <nav class="w-full h-[80px] flex justify-between items-center">
-        <hr class="border-2 border-[#000000] mx-[10%] w-[75%] absolute top-[-4px]">
-        <div class="ms-32">
+        <hr class="border-2 border-[#000000] lg:mx-[15%] w-[100%] lg:w-[70%] absolute top-[-4px]">
+        <div class="ms-4 lg:ms-32">
             <a href="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="343" height="50" fill="none" viewBox="0 0 343 50">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-40 lg:w-auto" width="343" height="50" fill="none" viewBox="0 0 343 50">
                 <path fill="#fff" d="m23.524 17.06-7.053-6.947a.782.782 0 0 0-1.098 0l-6.805 6.704a.782.782 0 0 0 0 1.114L11 20.327c.304.3.793.3 1.098 0l3.522-3.47c.304-.3.793-.3 1.097 0l3.523 3.47c.304.3.793.3 1.097 0l2.186-2.152a.782.782 0 0 0 0-1.115Z"/>
                 <path fill="url(#a)" d="m23.524 17.06-7.053-6.947a.782.782 0 0 0-1.098 0l-6.805 6.704a.782.782 0 0 0 0 1.114L11 20.327c.304.3.793.3 1.098 0l3.522-3.47c.304-.3.793-.3 1.097 0l3.523 3.47c.304.3.793.3 1.097 0l2.186-2.152a.782.782 0 0 0 0-1.115Z"/>
                 <path fill="#fff" d="m.59 32.971 15.415-15.028a.237.237 0 0 1 .33-.002L31.6 32.745c.315.306.317.81.004 1.119l-5.646 5.561c-.304.3-.793.3-1.097 0l-8.143-8.02a.782.782 0 0 0-1.097 0l-8.159 8.037a.782.782 0 0 1-1.08.016L.604 34.105a.782.782 0 0 1-.015-1.134Z"/>
@@ -31,7 +31,7 @@
                 </svg>
             </a>
         </div>
-        <div class="me-32">
+        <div class="me-32 hidden lg:block">
             <ul class="w-[30%] flex justify-between items-center">
                 <li><a href="" class="me-10 text-xl">Home</a></li>
                 <li><a href="" class="me-10 text-xl">About</a></li>
