@@ -1,31 +1,19 @@
-<template>
-    <div>
-        <div class="container-div">
-            <div class="landing-div">
-                <Landing />
-            </div>
-            <div class="about-div">
-                <About />
-            </div>
-        </div>
-        <Description />
-    </div>
-</template>
-
 <script setup>
-    import Landing from '../components/Landing.vue';
-    import About from '../components/About.vue';
-    import Description from '../components/Description.vue';
+    import Landing from '@/components/Landing.vue';
+
+
 </script>
 
+<template>
+    <Landing />
+    <img src="@/assets/images/bg.svg" alt="" class="h-screen md:h-auto object-cover">
+    <div class="h-screen flex justify-center items-center bg-[#001b1f]">
+        Hello World
+    </div>
+    
+    
+</template>
+
 <style scoped>
-    .landing-div{
-        position: sticky;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
-    .about-div{
-        background-color: white;
-    }
+
 </style>
