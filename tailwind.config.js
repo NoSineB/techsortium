@@ -6,7 +6,15 @@ export default {
     "./src/components/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        '8xl': '88rem'
+      },
+      fontFamily: {
+        'russo': ['Russo One', 'Sans Serif'],
+        'poppins': ['Poppins', 'Sans Serif']
+      }
+    },
   },
   plugins: [],
 }

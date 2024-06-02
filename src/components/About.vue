@@ -1,51 +1,31 @@
 <template>
-    <div class="about">
+    <div class="mx-2 h-screen lg:mx-20">
         <transition-group
             appear
-            class="w-[70%] h1"
+            class="font-bold font-russo"
             tag="div"
             @before-enter="onBeforeH1Enter"
             @enter="onH1Enter"
         >
-            <h1 class="text-4xl lg:text-8xl text-black ms-4 lg:ms-20 pt-8 lg:pt-20 font-bold" key="0">IEEE Kerala Section</h1>
-            <h1 class="text-4xl lg:text-8xl text-black ms-4 lg:ms-20 font-bold" key="1">Student Technical</h1>
-            <h1 class="text-4xl lg:text-8xl text-black ms-4 lg:ms-20 font-bold" key="2">Consortium 2024</h1>   
+            <h1 class="text-4xl min-[385px]:text-5xl lg:text-7xl  pt-8 lg:pt-20" key="0">IEEE Kerala Section</h1>
+            <h1 class="text-4xl min-[385px]:text-5xl lg:text-7xl" key="1">Student Technical</h1>
+            <h1 class="text-4xl min-[385px]:text-5xl lg:text-7xl" key="2">Consortium 2024</h1>   
         </transition-group>
-        <transition
-            appear
-            @before-enter="onBeforeLogoEnter"
-            @enter="onLogoEnter"
-        >
-            <div class="logos mx-2 lg:mx-0">
-                <img src="../assets/images/HEADER.svg" alt="">
+        <div class="mt-8 md:mt-16 text-lg min-[385px]:text-xl md:text-3xl lg:text-2xl">
+            <p>Prepare to dive into a world of technical challenges, network with fellow tech minds, and propel your ideas to new heights.</p>
+        </div>
+        <div class="ms-2 mt-8 md:mt-16 text-sm text-white/55">
+            <div>Powered By</div>
+            <div class="flex justify-start items-center mt-1 gap-8 flex-wrap">
+                <img src="@/assets/images/W_IEEE_LINK.png" alt="" class="w-32 min-[385px]:w-40 transition-opacity duration-300 opacity-90 md:opacity-70 hover:opacity-90">
+                <img src="@/assets/images/W_IEEE_KS.png" alt="" class="w-32 min-[385px]:w-40 transition-opacity duration-300 opacity-90 md:opacity-70 hover:opacity-90">
+                <img src="@/assets/images/W_IEEE.png" alt="" class="w-32 min-[385px]:w-40 transition-opacity duration-300 opacity-90 md:opacity-70 hover:opacity-90">
             </div>
-        </transition> 
+        </div>
     </div>
 </template>
 
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-    .about{
-        height: 100vh;
-        color: black;
-        position: relative;
-    }
-    .h1 h1{
-        font-family: "Russo One";
-    }
-    
-    .logos{
-        position: absolute;
-        bottom: 200px;
-    }
-    
-
-    @media (min-width: 1024px) { 
-        .logos{
-            right: 130px;
-            bottom: 130px;
-        }
-    }
+<style >
 
 </style>
 

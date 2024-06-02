@@ -44,14 +44,6 @@
 </template>
 
 <style>
-:root{
-    --blue: #a20000;
-    --pink: #5770F3;
-    --red: #0E0940;
-    --background: #0C0C0C;
-    --shadow: rgba(0,0,0, 0.25);
-}
-
 
 .head{
     overflow: hidden;
@@ -62,7 +54,7 @@
     position: relative;
 }
 
-@media (min-width: 1024px) { 
+@media (min-width: 768px) { 
     .head{
         height: 100vh;
     }
