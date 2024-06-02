@@ -1,5 +1,6 @@
 <template>
     <div class="head">
+        <div class="box box11"></div>
         <div class="box box10"></div>
         <div class="box box9"></div>
         <div class="box box8"></div>
@@ -49,16 +50,10 @@
     overflow: hidden;
     background: rgb(162,0,0);
     background: linear-gradient(90deg, rgba(162,0,0,1) 17%, rgba(14,9,64,1) 71%);
-    height: 500px;
+    height: 100vh;
     width: 100vw;
     position: relative;
 }
-
-@media (min-width: 768px) { 
-    .head{
-        height: 100vh;
-    }
- }
 
 .box{
     top: calc(50% - 10vmin);
@@ -149,6 +144,13 @@
     --endScale:20.00;
     --initialAngle:-85deg;
     --endAngle:-99deg;
+}
+
+.box11{
+    --initialScale:20.00;
+    --endScale:25.00;
+    --initialAngle:-99deg;
+    --endAngle:-106deg;
     animation: boxMove 4s linear infinite, ending 4s linear infinite;
 }
 
