@@ -13,8 +13,8 @@
 
 <script setup>
     import Landing from '../components/Landing.vue';
-    import About from '../components/About.vue';
-    import Description from '../components/Description.vue';
+    import About from '../components/BrandingSection.vue';
+    import Description from '../components/MainSection.vue';
     import gsap from 'gsap';
 import { onMounted } from 'vue';
 

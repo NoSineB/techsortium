@@ -13,6 +13,9 @@ export default {
       fontFamily: {
         'russo': ['Russo One', 'Sans Serif'],
         'poppins': ['Poppins', 'Sans Serif']
+      },
+      height : {
+        'card' : '350px'
       }
     },
   },
