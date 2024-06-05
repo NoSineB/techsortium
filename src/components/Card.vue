@@ -1,5 +1,5 @@
 <template>
-    <div class="w-[75%] md:w-[90%] lg:w-4/5 xl:w-3/5 md:h-card transition-all duration-300 flex flex-col md:flex-row bg-white/10 rounded-lg">
+    <div class="w-[75%] md:w-[90%] lg:w-4/5 xl:w-3/5 transition-all duration-300 flex flex-col md:flex-row bg-white/10 rounded-lg">
         <div :class="leftOrRight === 'right' ? 'order-2 md:order-1' : 'order-2'" class="md:w-1/2">
             <div class="p-4 flex flex-col h-full overflow-hidden relative">
                 <div class="mt-2">

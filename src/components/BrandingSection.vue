@@ -52,25 +52,5 @@
         })
     }
 
-    function onBeforeLogoEnter(el){
-        gsap.set(el,{
-            opacity: 0,
-            y:150
-        })
-    }
-
-    function onLogoEnter(el){
-        gsap.to(el, {
-            scrollTrigger: {
-                trigger: el,
-                start: "top 85%",
-                toggleActions: "play none restart none"
-            },
-            duration: 1.5,
-            opacity: 1,
-            y: 0
-        })
-    }
-
 </script>
 
